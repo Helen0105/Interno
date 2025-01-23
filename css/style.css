@@ -23,24 +23,53 @@
     body{
         font-family:Jost;
     }
-
-.header-link{
-    color:var(--text-color);
+    
+    .container{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        outline: 2px solid rgb(207, 173, 100);
+    }
+    
+    .header{
+        padding: 30px 0px;
+    }
+    
+    .nav{
+        margin-left: auto;
+    }
+    
+    .header-box{
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-list{
+        display: flex;
+        
+        gap: 40px;
+    }
+    
+    .header-link{
+        color:var(--text-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.50; 
+    line-height: 1.50; /* 150% */
     letter-spacing: 0.4px;
-}
-
-.header-link:hover{
-    color:var(--achievement-bcg);
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.50; /* 150% */
-letter-spacing: 0.4px;
-}
+    }
+    
+    .header-link:hover{
+        color:var(--achievement-bcg);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; /* 150% */
+    letter-spacing: 0.4px;
+    }
+    
 
 .hero-title{
     color: #292F36;
@@ -247,6 +276,3 @@ letter-spacing: 0.22px;
 }
 
 
-.project-subject[
-    
-]
