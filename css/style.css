@@ -370,7 +370,8 @@ letter-spacing: 0.22px;
 
 
 .branding{
-
+padding-top: 141px;
+padding-bottom: 113;
     justify-content: space-around;
 }
 
