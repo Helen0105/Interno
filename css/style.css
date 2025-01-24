@@ -11,14 +11,6 @@
         --footer-brdr:#f5f5f5;
     }
   
-    
-    .container{
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     body{
         font-family:Jost;
@@ -114,30 +106,40 @@ border: none;
 border-radius: 15px;
 }
 
+/* features */
 
-.benefits{
+.features{
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
 }
-.benefits-item{
+
+.features-list{
+    display: flex;
+    justify-content: center;
+
+}
+
+.features-item{
     padding-top: 75px;
     padding-left: 42px;
     padding-right: 41px;
     padding-bottom: 70px;
 }
-.benefits-title{
+
+.features-title{
     color: var(--title-color);
-    font-family: "DM Serif Display";
-    text-align: center;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.56; /* 156% */
-    letter-spacing: 0.22px;
-    margin-bottom: 17px;
+font-family: "DM Serif Display";
+text-align: center;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.56; /* 156% */
+letter-spacing: 0.22px;
+margin-bottom: 17px;
 }
-.benefits-desk:nth-child(1){
+
+.features-desk:nth-child(1){
     width: 317px;
     color:var(--text-color);
     text-align: center;
@@ -149,7 +151,7 @@ letter-spacing: 0.22px;
 margin-bottom: 68px;
 }
 
-.benefits-desk:nth-child(2){
+.features-desk:nth-child(2){
 
     color:var(--text-color);
     width: 297px;
@@ -174,7 +176,7 @@ letter-spacing: 0.22px;
 margin-bottom: 35px;
 }
 
-.benefits-button{
+.features-btn{
     color: var(--text-color);
 text-align: center;
 font-size: 18px;
@@ -187,25 +189,36 @@ background-color:var(--bcg-color);
 
 }
 
+/* call */
+
+.call-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 .call-title{
-    color: #292F36;
+    width: 450px;
+    color: var(--title-color);
 font-family: "DM Serif Display";
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.3; /* 130% */
+line-height: 1.30; /* 130% */
 letter-spacing: 0.22px;
+margin-bottom: 42px;
 }
 
 .call-desk{
-    color: #4D5053;
-font-family: Jost;
+    width: 531px;
+    color: var(--text-color);
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.5; /* 150% */
+line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+margin-bottom: 40px;
 }
 
 
@@ -232,78 +245,143 @@ letter-spacing: 0.22px;
 
 .call-button{
     border-radius: 18px;
-border: 2px solid #292F36;
-background: #292F36;
-color: #FFF;
-font-family: Jost;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; /* 150% */
-letter-spacing: 0.72px;
+    border: 2px solid var(--title-color);
+    background: var(--title-color);
+    color: var(--bcg-color);
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; /* 150% */
+    letter-spacing: 0.72px;
+    padding: 21px 67px 23px 34px;
 }
+.call-image{
+
+ 
+
+}
+
+.call-phone{
+    display: flex;
+}
+
 .call-img{
     width: 592px;
 height: 635px;
 flex-shrink: 0;
 }
 
+/* preview */
+
+
+.preview{
+    margin-top: 139px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70px;
+    background: var(--review-bcg);
+    width: 1200px;
+}
+
+.preview-title{
+    color: var(--title-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.30; /* 130% */
+letter-spacing: 0.22px;
+padding-top: 103px;
+}
+
+.preview-title2{
+    color: var(--title-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.30; /* 130% */
+letter-spacing: 0.22px;
+padding-bottom: 47px;
+}
+
+.preview-list{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    padding-bottom: 121px;
+}
+
+.preview-item{
+    border-radius: 30px;
+background: var(--bcg-color);
+padding-top: 50px;
+padding-right: 67px;
+padding-bottom: 45px;
+padding-left: 35px;
+width: 354px;
+height: 287px;
+}
+
+.preview-box{
+    display: flex;
+}
 
 .preview-image{
     width: 77px;
 height: 77px;
+margin-right: 20px;
 }
 
-
-
-.preview-title{
-    color: #292F36;
-
-    text-align: center;
-    font-family: "DM Serif Display";
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.3; /* 130% */
-    letter-spacing: 0.22px;
-}
 .preview-subtitle{
-    color: #292F36;
-    font-family: "DM Serif Display";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.22px;
+    color:var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+
 
 }
 
+.preview-desk{
+    color:var(--text-color);
 
-.preview-desc{
-    color: #4D5053;
-    font-family: Jost;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.22px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+text-align: center;
+margin-bottom: 32px;
 }
 
 .preview-subject{
-    color: #4D5053;
-    font-family: Jost;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.22px;
+    color:var(--text-color);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+
 }
 
+/* branding */
 
-.branding-image{
-    width: 132px;
-height: 43px;
-flex-shrink: 0;
+
+.branding{
+    margin-top: 141px;
+}
+
+.branding-list{
+    display: flex;
+    justify-content: start;
+    gap: 100px;
+    align-items: center;
 }
 
 .project-title{
@@ -335,3 +413,136 @@ letter-spacing: 0.22px;
 }
 
 
+/* footer */
+
+.footer2{
+    margin-top: 130px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.footer-text{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-top: 15px;
+padding-bottom: 30px;
+width: 326px;
+}
+
+.footer-list{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 196px;
+    padding-right: 228px;
+}
+
+.pages-title{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-bottom: 21px;
+}
+
+.pages-list{
+    margin-right: 97px;
+}
+
+.pages-item{
+    padding-bottom: 30px;
+}
+
+.pages-link{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.explore-list{
+    margin-right: 86px;
+}
+
+.explore-title{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+margin-right: 137px;
+padding-bottom: 21px;
+}
+
+.explore-item{
+    padding-bottom: 30px;
+}
+
+.explore-link{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.contact-title{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-bottom: 22px;
+}
+
+.contact-item{
+    padding-bottom: 29px;
+}
+
+.contact-link{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.Copyright{
+    border-top: 3px solid var(--footer-brdr) ;
+    padding-top: 35px;
+    padding-bottom: 36px;
+}
+
+.copyright-text{
+    color: var(--text-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.copyright-color{
+    color: var(--hover-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
