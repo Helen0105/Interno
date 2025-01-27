@@ -373,6 +373,21 @@ padding-bottom: 113px;
     align-items: center;
 }
 
+/* resent */
+.resent-image{
+    width: 590px;
+    height: 661px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+/* project */
+.project{
+    padding-bottom: 80px;
+}
 .project-title{
     color: #292F36;
 text-align: center;
@@ -401,6 +416,20 @@ letter-spacing: 0.22px;
     flex-shrink: 0;
 }
 
+
+
+/* achievements */
+
+
+
+
+
+
+
+/* recent */
+.recent{
+    padding-top: 130px;
+}
 
 /* footer */
 
