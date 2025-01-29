@@ -419,8 +419,62 @@ letter-spacing: 0.22px;
 
 
 /* achievements */
+    
+    .achievements{
+        background: var(--review-bcg);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    }
+    
+    .achievements-list{
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 16px;
+    }
+    
+    
+    .achievements-item:nth-child(1){
+        padding: 14px 55px 10px 33px;
+        border-right: 1px solid var(--achievement-bcg);
+    }
+    
 
-
+    .achievements-item:nth-child(2){
+        padding: 14px 78px 10px 57px;
+        border-right: 1px solid var(--achievement-bcg);
+    }
+    .achievements-item:nth-child(3){
+        padding: 14px 86px 10px 65px;
+        border-right: 1px solid var(--achievement-bcg);
+    }
+    .achievements-item:nth-child(4){
+        padding: 14px 67px 10px 47px;
+    }
+    
+    .achievements-title{
+        color: var(--achievement-bcg);
+    font-family: "DM Serif Display";
+    text-align: center;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; /* 150% */
+    letter-spacing: 1.7px;
+    margin-bottom: 12px;
+    
+    }
+    .achievements-text{
+        color: var(--text-color);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; /* 150% */
+    letter-spacing: 0.22px;
+    
+    }
 
 
 
@@ -428,9 +482,149 @@ letter-spacing: 0.22px;
 
 /* recent */
 .recent{
-    padding-top: 130px;
+    margin-top: 143px;
 }
 
+.recent-title{
+    color: var(--title-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.30; /* 130% */
+letter-spacing: 0.22px;
+}
+
+.recent-subtitle{
+    color: var(--text-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+margin-top: 21px;
+margin-bottom: 70px;
+}
+
+.recent-subtitle2{
+    color: var(--text-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.recent-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    flex-basis: calc((100% - 60px) /3);
+
+}
+
+.recent-item{
+    width: 387px;
+height: 515px;
+border-radius: 62px;
+border: 1px solid var(--list-bcg);
+padding: 21px 41px 21px 21px ;
+margin-bottom: 40px;
+flex-basis:calc((100% - 40px) /3);
+}
+
+
+
+.recent-subject{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.40; /* 140% */
+letter-spacing: 0.5px;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+.recent-box{
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.recent-item:nth-child(3)>.recent-subject{
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+/* 
+.recent-btn{
+background-image:;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: auto;
+} */
+
+
+
+.join{
+    width: 1200px;
+    height: 410px;
+    margin-top: 141px;
+    border-radius: 70px;
+    background: var(--join-bcg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join-title{
+    color: var(--bcg-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-top: 100px;
+}
+
+.join-text{
+    color: var(--bcg-color);
+text-align: center;
+font-family: Jost;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.join-button{
+    padding-top: 21px;
+    padding-right: 67px;
+    padding-bottom: 23px;
+    padding-left: 34px;
+border-radius: 18px;
+background-color: var(--achievement-bcg);
+color: var(--bcg-color);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+border: none;
+margin-top: 31px;
+margin-bottom: 95px;
+margin-left: 474px;
+margin-right: 485px;
+}
 /* footer */
 
 .footer2{
