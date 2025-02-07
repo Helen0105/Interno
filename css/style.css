@@ -711,10 +711,16 @@ line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 }
 
+.explore{
+
+}
 .explore-list{
     margin-right: 86px;
 }
 
+.footer2{
+    display:flex
+}
 .explore-title{
     color: var(--title-color);
 font-family: "DM Serif Display";
