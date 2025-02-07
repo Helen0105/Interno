@@ -456,18 +456,6 @@ letter-spacing: 0.22px;
 
 }
 
-.project-btn{
-    border-radius: 100px;
-background: var(--buttons-bcg);
-background-image: url(../images/arrow.png);
-background-repeat: no-repeat;
-background-position: center;
-border: none;
-width: 70px;
-height: 70px;
-margin-left: auto;
-margin-top: 25px;
-}
 
 /* achievements */
     
@@ -533,7 +521,7 @@ margin-top: 25px;
 
 /* recent */
 .recent{
-    margin-top: 143px;
+    padding-top: 143px;
 }
 
 .recent-title{
