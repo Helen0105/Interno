@@ -1,0 +1,37 @@
+.header{
+    padding: 30px 0px;
+}
+
+.nav{
+    margin-left: auto;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    
+    gap: 40px;
+}
+
+.header-link{
+    color:var(--text-color);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.4px;
+}
+
+.header-link:hover{
+    color:var(--achievement-bcg);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.4px;
+}
+

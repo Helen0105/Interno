@@ -1,0 +1,76 @@
+.call-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.call-title{
+    width: 450px;
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.30; /* 130% */
+letter-spacing: 0.22px;
+margin-bottom: 42px;
+}
+
+.call-desk{
+    width: 531px;
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+margin-bottom: 40px;
+}
+
+
+.call-tel{
+    color: #4D5053;
+font-family: Jost;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.call-subtitle{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+
+.call-button{
+    border-radius: 18px;
+    border: 2px solid var(--title-color);
+    background: var(--title-color);
+    color: var(--bcg-color);
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; /* 150% */
+    letter-spacing: 0.72px;
+    padding: 21px 67px 23px 34px;
+}
+
+.call-phone{
+    display: flex;
+    margin-bottom: 39.8px;
+}
+
+.call-img{
+    width: 592px;
+height: 635px;
+flex-shrink: 0;
+}
