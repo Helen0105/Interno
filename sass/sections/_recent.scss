@@ -10,7 +10,7 @@
 }
 
 .recent-title{
-    color: var(--title-color);
+    color: $title-color;
 text-align: center;
 font-family: "DM Serif Display";
 font-size: 48px;
@@ -21,7 +21,7 @@ letter-spacing: 0.22px;
 }
 
 .recent-subtitle{
-    color: var(--text-color);
+    color: $text-color;
 text-align: center;
 font-size: 22px;
 font-style: normal;
@@ -33,7 +33,7 @@ margin-bottom: 70px;
 }
 
 .recent-subtitle2{
-    color: var(--text-color);
+    color: $text-color;
 text-align: center;
 font-size: 22px;
 font-style: normal;
@@ -55,7 +55,7 @@ row-gap: 60px;
     width: 387px;
 height: 515px;
 border-radius: 62px;
-border: 1px solid var(--list-bcg);
+border: 1px solid $list-bcg;
 padding: 21px 21px 21px 21px ;
 flex-basis:calc((100% - 40px) /3);
 }
@@ -63,7 +63,7 @@ flex-basis:calc((100% - 40px) /3);
 
 
 .recent-subject{
-    color: var(--title-color);
+    color: $title-color;
 font-family: "DM Serif Display";
 font-size: 25px;
 font-style: normal;

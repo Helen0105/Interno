@@ -23,19 +23,6 @@ button {
   cursor: pointer;
 }
 
-:root {
-  --hover-color:#CDA274;
-  --title-color:#292F36;
-  --text-color:#4D5053;
-  --review-bcg:#F4F0EC;
-  --buttons-bcg:#F4F0EC;
-  --achievement-bcg:#CDA274;
-  --bcg-color:#FFFFFF;
-  --join-bcg:#292F36;
-  --list-bcg: #E7E7E7;
-  --footer-brdr:#f5f5f5;
-}
-
 body {
   font-family: Jost;
 }
@@ -68,7 +55,7 @@ body {
 }
 
 .header-link {
-  color: var(--text-color);
+  color: #4D5053;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -77,7 +64,7 @@ body {
 }
 
 .header-link:hover {
-  color: var(--achievement-bcg);
+  color: #CDA274;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -94,7 +81,7 @@ body {
 
 .hero-title {
   width: 595px;
-  color: var(--title-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 80px;
   font-style: normal;
@@ -105,7 +92,7 @@ body {
 }
 
 .hero-desk {
-  color: var(--text-color);
+  color: #4D5053;
   width: 577px;
   font-size: 22px;
   font-style: normal;
@@ -118,7 +105,7 @@ body {
 .hero-button {
   padding: 22px 67px 22px 34px;
   background-color: #292F36;
-  color: var(--bcg-color);
+  color: #FFFFFF;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -442,7 +429,7 @@ body {
 }
 
 .achievements {
-  background: var(--review-bcg);
+  background: #F4F0EC;
   margin-left: auto;
   margin-right: auto;
   padding-top: 140px;
@@ -457,17 +444,17 @@ body {
 
 .achievements-item:nth-child(1) {
   padding: 14px 55px 10px 33px;
-  border-right: 1px solid var(--achievement-bcg);
+  border-right: 1px solid #CDA274;
 }
 
 .achievements-item:nth-child(2) {
   padding: 14px 78px 10px 57px;
-  border-right: 1px solid var(--achievement-bcg);
+  border-right: 1px solid #CDA274;
 }
 
 .achievements-item:nth-child(3) {
   padding: 14px 86px 10px 65px;
-  border-right: 1px solid var(--achievement-bcg);
+  border-right: 1px solid #CDA274;
 }
 
 .achievements-item:nth-child(4) {
@@ -475,7 +462,7 @@ body {
 }
 
 .achievements-title {
-  color: var(--achievement-bcg);
+  color: #CDA274;
   font-family: "DM Serif Display";
   text-align: center;
   font-size: 85px;
@@ -507,7 +494,7 @@ body {
 }
 
 .recent-title {
-  color: var(--title-color);
+  color: #292F36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 48px;
@@ -518,7 +505,7 @@ body {
 }
 
 .recent-subtitle {
-  color: var(--text-color);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -530,7 +517,7 @@ body {
 }
 
 .recent-subtitle2 {
-  color: var(--text-color);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -551,13 +538,13 @@ body {
   width: 387px;
   height: 515px;
   border-radius: 62px;
-  border: 1px solid var(--list-bcg);
+  border: 1px solid #E7E7E7;
   padding: 21px 21px 21px 21px;
   flex-basis: calc((100% - 40px) / 3);
 }
 
 .recent-subject {
-  color: var(--title-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;

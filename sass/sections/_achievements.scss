@@ -1,5 +1,5 @@
 .achievements{
-    background: var(--review-bcg);
+    background: $review-bcg;
 margin-left: auto;
 margin-right: auto;
 padding-top: 140px;
@@ -15,24 +15,24 @@ padding-bottom: 140px;
 
 .achievements-item:nth-child(1){
     padding: 14px 55px 10px 33px;
-    border-right: 1px solid var(--achievement-bcg);
+    border-right: 1px solid $achievement-bcg;
 }
 
 
 .achievements-item:nth-child(2){
     padding: 14px 78px 10px 57px;
-    border-right: 1px solid var(--achievement-bcg);
+    border-right: 1px solid $achievement-bcg;
 }
 .achievements-item:nth-child(3){
     padding: 14px 86px 10px 65px;
-    border-right: 1px solid var(--achievement-bcg);
+    border-right: 1px solid $achievement-bcg;
 }
 .achievements-item:nth-child(4){
     padding: 14px 67px 10px 47px;
 }
 
 .achievements-title{
-    color: var(--achievement-bcg);
+    color: $achievement-bcg;
 font-family: "DM Serif Display";
 text-align: center;
 font-size: 85px;
